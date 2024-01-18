@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tandartsafspraak</title>
+</head>
+<body>
+<h1> Even voorstellen</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non laoreet tellus. Donec ultricies elit quis diam convallis, a iaculis ipsum volutpat. Nulla blandit mi malesuada, ultricies elit eget, auctor lectus. Pellentesque aliquam, dui nec pretium efficitur, turpis felis auctor enim, sed mollis sapien nisi in massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vel massa sit amet elit porttitor fermentum ac.</p>
+<figure>
+ <img 
+src="https://www.dentalclinics.nl/wp-content/uploads/2015/06/DC_Lohmanlaan14.jpg"
+alt="Tandarts Doetinchem" 
+width="300">   
+<img
+src=" https://www.dentalclinics.nl/wp-content/uploads/2015/06/DC-Lohmanlaan-04-2.jpg"
+alt= "Personeel tandarts"
+width="300">
+<img
+src=" https://www.dentalclinics.nl/wp-content/uploads/2015/01/DC-Doetinchem-Noodtplaats-29.jpg"
+alt=" Personeel bij elkaar"
+width="300">
+</figure>
+<br>
+<h2>De afspraak maken</h2>
+<form id="contactformulier" action="https://formspree.io/f/mayrnkav" method="post">
+<fieldset>
+<legend> Persoonlijke gegevens</legend><br>
+<label for="Voornaam">Voornaam:</label>
+<input id="voornaam" type="text" name="Voornaam"><br>
+<label for="Achternaam">Achternaam:</label>
+<input id="Achternaam" type="text" name="Achternaam"><br>
+<label for="Adres">Adres:</label>
+<input id="Adres" type="text" name="Adres" placeholder="Straat en huisnummer"><br>
+<label for="Telefoonnummer">Telefoonnummer:</label>
+<input id="Telefoonnummer" type="tel" name="Telefoonnummer"><br>
+<label for="email">email:</label>
+<input id="email" type="email" name="email"><br>
+ </fieldset>   
+ <br>
+ <fieldset>
+<legend> Beschrijving van de klachten</legend><br>
+<b>Waar heeft U last van?</b><br><br>
+<input type="checkbox" name="klacht" value="Gaatje">Gaatje
+<input type="checkbox" name="klacht" value="Controle">Controle
+<input type="checkbox" name="klacht" value="Tandsteen">Tandsteen<br><br>
+<label for="afbeelding klacht">afbeelding klacht:</label>
+<input type="file" name="afbeelding klacht">
+ </fieldset>
+ <fieldset>
+ <legend> toelichting</legend><br>
+ <b>Beschrijf uw klachten</b><br><br>
+ <input type="text" name="toelichting" maxlength="1500"><br><br>
+ <b>Wanneer wilt U geholpen worden?</b><br><br>
+ <input type="date" name="datum" min="2024-1-1" max="2026-12-31">
+ </fieldset><br><br>
+ <input type="submit" value="Verzenden">
+</form>
+</body>
+</html>
